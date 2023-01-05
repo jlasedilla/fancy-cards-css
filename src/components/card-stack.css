@@ -1,0 +1,43 @@
+/* .cardstack {
+    @apply m-0 grid h-screen place-items-center;
+} */
+
+.cardstack {
+    @apply m-0 aspect-5/7 w-32 grid place-items-center absolute ease-in-out duration-500;
+}
+
+.cardstack > .card.s {
+    @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+}
+
+.cardstack:hover > .card.l:nth-child(2) {
+    @apply -translate-x-3/4 translate-y-16% -rotate-24;
+}
+
+.cardstack:hover > .card.l:nth-child(4) {
+    @apply -translate-x-1/4 translate-y-8% -rotate-8;
+}
+
+.cardstack:hover > .card.l:nth-child(6) {
+    @apply translate-x-1/4 translate-y-8% rotate-8;
+}
+
+.cardstack:hover > .card.l:nth-child(8) {
+    @apply translate-x-3/4 translate-y-16% rotate-24;
+}
+
+.cardstack:hover > .card.s:nth-child(1) {
+    @apply translate-x-200% -translate-y-160% -rotate-15;
+}
+
+.cardstack:hover > .card.s:nth-child(3) {
+    @apply translate-x-160% translate-y-170% rotate-15;
+}
+
+.cardstack:hover > .card.s:nth-child(5) {
+    @apply -translate-x-200% -translate-y-170% rotate-15;
+}
+
+.cardstack:hover > .card.s:nth-child(7) {
+    @apply -translate-x-280% translate-y-140% -rotate-15;
+}

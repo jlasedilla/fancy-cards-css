@@ -1,0 +1,47 @@
+.card {
+    @apply aspect-5/7 min-w-min bg-white bg-opacity-5 absolute ease-in-out duration-500 overflow-hidden
+    /* ... */;
+}
+
+.card.s {
+    @apply w-12 rounded-lg bg-red-400 bg-opacity-5
+    /* ... */;
+}
+
+.card.m {
+    @apply w-20 rounded-lg bg-green-400 bg-opacity-5
+    /* ... */;
+}
+
+.card.l {
+    @apply w-32 rounded-lg bg-blue-400 bg-opacity-5
+    /* ... */;
+}
+
+.card.l:nth-child(2) {
+    @apply -translate-x-10% -rotate-1
+    /* ... */;
+}
+
+.card.l:nth-child(4) {
+    @apply rotate-2
+    /* ... */;
+}
+
+.card.l:nth-child(6) {
+    @apply -translate-x-6% -rotate-3
+    /* ... */;
+}
+
+.card.l:nth-child(8) {
+    @apply translate-x-10% translate-y-3% rotate-6
+    /* ... */;
+}
+
+.card > .image {
+    @apply absolute;
+}
+
+.card > .carditem {
+    @apply absolute;
+}
