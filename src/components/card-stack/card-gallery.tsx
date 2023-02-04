@@ -3,7 +3,7 @@ import { faX, faHeart } from '@fortawesome/free-solid-svg-icons';
 
 import './card-gallery.css';
 import { CardStack } from './card-stack';
-import { IconButton } from './icon-button';
+import { IconButton } from '~/components/icon-button/icon-button';
 
 interface CardGalleryProps {
     imageSet1?: { [key: string]: string };

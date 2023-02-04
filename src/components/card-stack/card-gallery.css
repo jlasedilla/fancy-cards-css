@@ -1,0 +1,31 @@
+@tailwind components;
+
+@layer components {
+    .cardgallery {
+        @apply m-0 grid place-items-center;
+    }
+
+    .cardgroup {
+        @apply aspect-5/7 w-32;
+    }
+
+    .gallerybuttons {
+        @apply mt-10 flex justify-around w-32 p-2;
+    }
+
+    .heart {
+        @apply border-blue-400 text-blue-400;
+    }
+
+    .cardstack[data-index='0'] {
+        @apply scale-100 delay-200;
+    }
+
+    .cardstack[data-index='1'] {
+        @apply translate-x-1/2 scale-0;
+    }
+
+    .cardstack[data-index='2'] {
+        @apply -translate-x-1/2 scale-0;
+    }
+} ;

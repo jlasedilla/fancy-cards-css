@@ -1,4 +1,4 @@
-import { Card } from '~/components/card';
+import { Card } from '~/components/card-stack/card';
 
 import './card-stack.css';
 

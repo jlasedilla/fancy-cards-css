@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react';
-import { CardGallery } from '~/components/card-gallery';
+import { CardGallery } from '~/components/card-stack/card-gallery';
 
 const meta: Meta<typeof CardGallery> = {
     title: 'Components/CardGallery',

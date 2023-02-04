@@ -1,7 +1,7 @@
 import { faX } from '@fortawesome/free-solid-svg-icons';
 
 import type { Meta, StoryObj } from '@storybook/react';
-import { IconButton } from '~/components/icon-button';
+import { IconButton } from '~/components/icon-button/icon-button';
 
 const meta: Meta<typeof IconButton> = {
     title: 'Components/IconButton',
