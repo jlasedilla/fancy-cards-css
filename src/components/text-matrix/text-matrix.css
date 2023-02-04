@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .text-matrix {
+        @apply text-white text-8xl font-mono text-center py-10;
+    }
+}
