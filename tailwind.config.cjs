@@ -25,6 +25,14 @@ module.exports = {
                 15: '15deg',
                 8: '8deg',
             },
+            width: {
+                '20vmin': '20vmin',
+                '40vmin': '40vmin',
+            },
+            height: {
+                '30vmin': '30vmin',
+                '50vmin': '50vmin',
+            },
         },
     },
     plugins: [],

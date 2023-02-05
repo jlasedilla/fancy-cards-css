@@ -1,0 +1,15 @@
+@tailwind components;
+
+@layer components {
+    .photo-scroll {
+        @apply w-screen h-96 m-0 overflow-hidden relative;
+    }
+
+    .image-track > .image {
+        @apply w-72 h-96 object-cover object-right;
+    }
+
+    .image-track {
+        @apply flex gap-8 absolute left-1/2 w-max;
+    }
+}
