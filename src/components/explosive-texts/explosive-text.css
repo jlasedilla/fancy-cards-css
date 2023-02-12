@@ -1,0 +1,19 @@
+.e-texts {
+    @apply text-white text-4xl font-serif m-0 uppercase flex flex-col items-center p-20;
+}
+
+.line {
+    @apply flex justify-between w-80;
+}
+
+.line > .letter {
+    @apply inline-block;
+}
+
+.e-texts:has(.line:hover) .line:not(:hover) {
+    @apply opacity-20 transition-opacity;
+}
+
+.letter {
+    @apply ease-in-out duration-500;
+}
