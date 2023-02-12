@@ -28,4 +28,4 @@
     .cardstack[data-index='2'] {
         @apply -translate-x-1/2 scale-0;
     }
-} ;
+}
